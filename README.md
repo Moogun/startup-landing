@@ -4,8 +4,9 @@
 
 ## How to test
 1. clone or download this project
-2. npm install && npm run build:css && npm run devserver
-3. visit http://localhost:8080/public
+2. npm install && npm run build:css 
+3. move to public directory
+4. npm run devserver
 
 ## Features
 1. Flexbox for layout
