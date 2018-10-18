@@ -44,6 +44,3 @@ html {
 2. [autoprefixer](https://github.com/postcss/autoprefixer): Parse CSS and add vendor prefixes to CSS rules using values
 3. [postcss-cli](https://github.com/postcss/postcss-cli): Together with autoprefixer, it lints CSS, support variables and mixins, transpile CSS syntax, and etc. inline images, and more.
 
-
-## Credit
-Designed by [Jonas](https://github.com/jonasschmedtmann/advanced-css-course)
