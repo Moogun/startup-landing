@@ -38,6 +38,8 @@ html {
 }
 ```
 
+5. Support last 10 versions of browsers with (autoprefixer)[https://github.com/postcss/autoprefixer]. 
+
 
 ## Dependencies
 1. [node-sass](https://github.com/sass/node-sass): Compile .scss files to css
