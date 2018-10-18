@@ -1,0 +1,73 @@
+.header {
+    height: 100vh;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    &__text-box {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: $color-white;
+    }
+}
+
+.section-features {
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    text-align: center;
+
+    @include respond(tab-port) {
+        padding: 10rem 3rem 10rem 3rem;
+    }
+
+}
+
+.section-process {
+    padding: 10rem 0;
+    background-image: linear-gradient(to right bottom,
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8));
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.section-contact {
+    padding: 10rem 15rem;
+    background-image: linear-gradient(to right bottom,
+        rgba($color-grey-light-2, 0.8),
+        rgba($color-grey-light-1, 0.8));
+
+    @include respond(tab-port) {
+        padding: 8rem 6rem;;
+    }
+}
+
+.footer {
+    font-size: 1.4rem;
+    padding: 10rem 10rem;
+    background-color: $color-grey-dark-3;
+    color: $color-grey-light-1;
+
+    @include respond(tab-port) {
+        padding: 8rem 4rem;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: inline-block;
+
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+    }
+}
