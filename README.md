@@ -38,7 +38,7 @@ html {
 }
 ```
 
-5. Support last 10 versions of browsers with (autoprefixer)[https://github.com/postcss/autoprefixer]. 
+5. Support last 10 versions of browsers with [autoprefixer][https://github.com/postcss/autoprefixer]. 
 
 
 ## Dependencies
