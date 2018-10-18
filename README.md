@@ -1,6 +1,6 @@
 # Startup Landing Page Project written with CSS3 with SASS
 
-[screen-shot](https://media.giphy.com/media/61ScR441CmXv6m8RAt/giphy.gif)
+![](https://media.giphy.com/media/61ScR441CmXv6m8RAt/giphy.gif)
 
 ## How to test
 1. clone or download this project
