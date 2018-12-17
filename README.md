@@ -1,10 +1,12 @@
 # Startup Landing Page Project written with CSS3 with SASS
 
+[live-demo](https://moogun.github.io/startup-landing)
+
 ![](https://media.giphy.com/media/61ScR441CmXv6m8RAt/giphy.gif)
 
 ## How to test
 1. clone or download this project
-2. npm install && npm run build:css 
+2. npm install && npm run build:css
 3. move to public directory
 4. npm run devserver
 
@@ -39,11 +41,10 @@ html {
 }
 ```
 
-5. Support last 10 versions of browsers with [autoprefixer](https://github.com/postcss/autoprefixer). 
+5. Support last 10 versions of browsers with [autoprefixer](https://github.com/postcss/autoprefixer).
 
 
 ## Dependencies
 1. [node-sass](https://github.com/sass/node-sass): Compile .scss files to css
 2. [autoprefixer](https://github.com/postcss/autoprefixer): Parse CSS and add vendor prefixes to CSS rules using values
 3. [postcss-cli](https://github.com/postcss/postcss-cli): Together with autoprefixer, it lints CSS, support variables and mixins, transpile CSS syntax, and etc. inline images, and more.
-
